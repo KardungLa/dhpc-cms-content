@@ -5,11 +5,13 @@ import { HttpClientModule } from "@angular/common/http";
 
 import { AppComponent } from './app.component';
 import { ViewComponent } from './view/view.component';
+import { SafeHtmlPipe } from './safe-html.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ViewComponent
+    ViewComponent,
+    SafeHtmlPipe
   ],
   imports: [
     BrowserModule,

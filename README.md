@@ -1,10 +1,9 @@
 # dhPLUS CMS View Component
 
-This is web component to use CMS Content stored on dhPLUS on every html page.
+This is a small custom web component, meant to display static HTML content, stored in the dhPLUS repository.
 ## Usage
 
 ```html
-
 <html>
     <head>
         <meta charset="UTF-8">
@@ -14,13 +13,16 @@ This is web component to use CMS Content stored on dhPLUS on every html page.
         <base href="/">
     </head>
     <body>
-        <dhpc-cms-content data-id=""></dhpc-cms-content>
+        <dhpc-cms-content data-id="https://dh.plus.ac.at/rest/demo"></dhpc-cms-content>
 
         <script src="https://dh.plus.ac.at/assets/dhpc/dhpc-cms-content.js" type="text/javascript">
     </body>
 </html>
-
 ```
+
+## Features (upcoming)
+
+* Create Navigation Menu out of page hierarchy.
 
 ## Development
 ### Development server
@@ -38,4 +40,6 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ### Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+
 
