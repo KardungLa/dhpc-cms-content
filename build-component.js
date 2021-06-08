@@ -5,8 +5,6 @@ build = async () => {
   const files = [
     './dist/dhpc-cms-content/runtime.js',
     './dist/dhpc-cms-content/polyfills.js',
-  //  './dist/dhpc-cms-content/es2015-polyfills.js',
-  //  './dist/dhpc-cms-content/scripts.js',
     './dist/dhpc-cms-content/main.js'
   ];
 
